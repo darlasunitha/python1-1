@@ -1,2 +1,2 @@
-list1 = [int(x) for x in raw_input().split()]
-print max(list1)
+l1 = [int(j) for j in raw_input().split()]
+print max(l1)
