@@ -1,3 +1,3 @@
-str = raw_input()
-line = str.count(' ')
+string = raw_input()
+line = string.count(' ')
 print(line)
