@@ -1,17 +1,17 @@
-x=int(raw_input())
-n1=1
-n2=1
+a=int(raw_input())
+num1=1
+num2=1
 i=2
-if x<= 0:
+if a<= 0:
        print("positive number")
-elif x == 1:
+elif a == 1:
          print 1,
 else :
-         print n1,
-         print n2,
-         while i<x:
-	              n3=n1+n2
-	              print n3,
-	              n1=n2
-	              n2=n3
+         print num1,
+         print num2,
+         while i<a:
+	              num3=num1+num2
+	              print num3,
+	              num1=num2
+	              num2=num3
                       i=i+1
