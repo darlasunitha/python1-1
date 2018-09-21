@@ -1,7 +1,7 @@
-m1,m2=map(str,raw_input().split())
-if m1==m2:
-    print m1
-elif m1>m2:
-    print m1
+n1,n2=map(str,raw_input().split())
+if n1==n2:
+    print n1
+elif n1>n2:
+    print n1
 else:
-    print m2
+    print n2
