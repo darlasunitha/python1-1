@@ -1,6 +1,6 @@
-n,k=map(int,raw_input().split()) 
-list=[int(x) for x in raw_input().split()] 
-if n and k in list: 
+p,q=map(int,raw_input().split()) 
+l=[int(j) for j in raw_input().split()] 
+if p and q in l: 
      print "yes" 
 else: 
      print "no"
