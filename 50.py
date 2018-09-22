@@ -1,5 +1,5 @@
-a=int(raw_input())
-if (a&(a-1)):
+num=int(raw_input())
+if (num&(num-1)):
     print "no"
 else:
     print "yes"
